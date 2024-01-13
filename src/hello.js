@@ -1,9 +1,9 @@
 frase = ""
 
-function hello (frase = "word") {
+function hello (frase = "World") {
 
     if (typeof frase != "string") {
-        frase = "word";
+        frase = "World";
     }
 
     return "Hello, " +  frase  + "!";
